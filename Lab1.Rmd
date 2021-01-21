@@ -1,7 +1,15 @@
 ---
+output:
+  github_document: default
+  html_document: default
+---
 title: "Lab 1: Getting Started"
 output: github_document
 ---
  
 ## Hello world!
+ 
+```{r}
+sessioninfo::session_info(c("tidyverse"))
+
  
